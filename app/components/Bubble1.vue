@@ -11,9 +11,6 @@ export default {
             backgroundColor: 'rgba(255, 204, 0, 0.4)', // 塗り潰しの色
             borderColor: 'rgba(255, 204, 0, 1)', // 線の色
             pointBackgroundColor: 'rgba(255, 204, 0, 1)', // 点の塗り潰しの色
-            pointHitRadius: 20,
-            pointStyle: 'circle',
-            pointRadius: 2,
             data: [
               {
                 x: 100,
@@ -51,17 +48,25 @@ export default {
       },
       options: {
         scales: {
-          yAxes: [{
+          xAxes: [{
+            display: true,
+            stacked: false,
             ticks: {
-              beginAtZero: false
+              min: 0,
+              max: 100,
+              fontColor: 'white'
             },
             gridLines: {
               display: false
             }
           }],
-          xAxes: [{
+          yAxes: [{
+            display: true,
+            stacked: false,
             ticks: {
-              beginAtZero: false
+              min: 0,
+              max: 100,
+              fontColor: 'white'
             },
             gridLines: {
               display: false
@@ -73,7 +78,16 @@ export default {
         },
         responsive: true,
         maintainAspectRatio: false,
-        height: 200
+        height: 100,
+        width: 100,
+        layout: {
+          padding: {
+            left: -0,
+            right: -0,
+            top: 0,
+            bottom: 0
+          }
+        }
       }
     }
   },
