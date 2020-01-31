@@ -1,9 +1,9 @@
 <template>
   <section class="container">
-    <div class="titie">
+    <div class="titie" style="font-size: 60px;">
       Strengths Finder
     </div>
-    <div class="bubble">
+    <div class="bubble" style="pointer-events: none;">
       <Bubble1 />
     </div>
   </section>
@@ -25,5 +25,7 @@ export default {
 </script>
 
 <style>
-
+.bubble {
+  padding-top: 50px;
+}
 </style>
