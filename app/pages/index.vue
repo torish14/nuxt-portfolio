@@ -1,7 +1,12 @@
 <template>
   <section class="container">
-    <div class="titie" style="font-size: 60px;">
-      Strengths Finder
+    <div class="titie" style="font-size: 70px;">
+      <div class="front" style="font-weight: 100;">
+        Strengths
+      </div>
+      <div class="back" style="font-weight: 100;">
+        Finder
+      </div>
     </div>
     <div class="bubble1" style="pointer-events: none;">
       <Bubble1 />
@@ -40,19 +45,29 @@ export default {
 </script>
 
 <style>
+.container {
+}
+
+.title {
+  position: absolute;
+  padding-right: 50px;
+}
+
 .bubble1 {
   padding-top: 50px;
 }
 
 .bubble2 {
   padding-left: 50px;
+  padding-top: 50px;
 }
 
 .bubble3 {
   padding-left: 80px;
+  padding-top: 50px;
 }
 
 .bubble4 {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 </style>
