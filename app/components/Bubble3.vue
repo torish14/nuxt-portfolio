@@ -8,10 +8,15 @@ export default {
       data: {
         datasets: [
           {
-            backgroundColor: 'rgba(153, 51, 102, 0.4)', // 塗り潰しの色
-            borderColor: 'rgba(153, 51, 102, 1)', // 線の色
-            pointBackgroundColor: 'rgba(153, 51, 102, 1)', // 点の塗り潰しの色
+            backgroundColor: 'rgba(68, 0, 0, 0.4)', // 塗り潰しの色
+            borderColor: 'rgba(68, 0, 0, 1)', // 線の色
+            pointBackgroundColor: 'rgba(68, 0, 0, 1)', // 点の塗り潰しの色
             data: [
+              {
+                x: 100,
+                y: 0,
+                r: 10
+              },
               {
                 x: 60,
                 y: 30,
@@ -23,17 +28,6 @@ export default {
                 r: 25
               },
               {
-
-                x: 100,
-                y: 0,
-                r: 10
-              },
-              {
-                x: 0,
-                y: 100,
-                r: 5
-              },
-              {
                 x: 80,
                 y: 80,
                 r: 50
@@ -42,6 +36,11 @@ export default {
                 x: 20,
                 y: 30,
                 r: 25
+              },
+              {
+                x: 0,
+                y: 100,
+                r: 5
               }
             ]
           }
