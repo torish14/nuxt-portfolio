@@ -6,8 +6,14 @@
     <div class="bubble1" style="pointer-events: none;">
       <Bubble1 />
     </div>
-    <div class="bubble" style="pointer-events: none;">
+    <div class="bubble2" style="pointer-events: none;">
       <Bubble2 />
+    </div>
+    <div class="bubble3" style="pointer-events: none;">
+      <Bubble3 />
+    </div>
+    <div class="bubble4" style="pointer-events: none;">
+      <Bubble4 />
     </div>
   </section>
 </template>
@@ -15,11 +21,15 @@
 <script>
 import Bubble1 from '~/components/Bubble1'
 import Bubble2 from '~/components/Bubble2'
+import Bubble3 from '~/components/Bubble3'
+import Bubble4 from '~/components/Bubble4'
 
 export default {
   components: {
     Bubble1,
-    Bubble2
+    Bubble2,
+    Bubble3,
+    Bubble4
   },
   data () {
     return {
