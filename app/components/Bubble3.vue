@@ -25,7 +25,7 @@ export default {
               {
                 x: 40,
                 y: 60,
-                r: 25
+                r: 35
               },
               {
                 x: 60,

@@ -8,7 +8,7 @@ export default {
       data: {
         datasets: [
           {
-            backgroundColor: 'rgba(153, 51, 102, 0.4)', // 塗り潰しの色
+            backgroundColor: 'rgba(153, 51, 102, 0.8)', // 塗り潰しの色
             borderColor: 'rgba(153, 51, 102, 1)', // 線の色
             pointBackgroundColor: 'rgba(153, 51, 102, 1)', // 点の塗り潰しの色
             data: [
