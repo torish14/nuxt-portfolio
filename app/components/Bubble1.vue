@@ -20,17 +20,17 @@ export default {
               {
                 x: 60,
                 y: 30,
-                r: 20
+                r: 5
               },
               {
                 x: 40,
                 y: 60,
-                r: 25
+                r: 15
               },
               {
-                x: 80,
+                x: 10,
                 y: 80,
-                r: 50
+                r: 30
               },
               {
                 x: 20,
@@ -53,7 +53,7 @@ export default {
             stacked: false,
             ticks: {
               min: 0,
-              max: 100,
+              max: 200,
               fontColor: 'white'
             },
             gridLines: {
@@ -65,7 +65,7 @@ export default {
             stacked: false,
             ticks: {
               min: 0,
-              max: 100,
+              max: 200,
               fontColor: 'white'
             },
             gridLines: {

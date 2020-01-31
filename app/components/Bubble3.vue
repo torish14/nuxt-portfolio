@@ -15,12 +15,12 @@ export default {
               {
                 x: 100,
                 y: 0,
-                r: 10
+                r: 5
               },
               {
-                x: 60,
+                x: 45,
                 y: 30,
-                r: 20
+                r: 30
               },
               {
                 x: 40,
@@ -28,9 +28,9 @@ export default {
                 r: 25
               },
               {
-                x: 80,
+                x: 60,
                 y: 80,
-                r: 50
+                r: 5
               },
               {
                 x: 20,
@@ -39,8 +39,8 @@ export default {
               },
               {
                 x: 0,
-                y: 100,
-                r: 5
+                y: 10,
+                r: 35
               }
             ]
           }
@@ -65,7 +65,7 @@ export default {
             stacked: false,
             ticks: {
               min: 0,
-              max: 100,
+              max: 300,
               fontColor: 'white'
             },
             gridLines: {

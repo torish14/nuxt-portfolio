@@ -30,7 +30,7 @@ export default {
               {
                 x: 80,
                 y: 80,
-                r: 50
+                r: 20
               },
               {
                 x: 20,
@@ -38,7 +38,7 @@ export default {
                 r: 25
               },
               {
-                x: 0,
+                x: 20,
                 y: 100,
                 r: 5
               }

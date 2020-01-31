@@ -29,9 +29,9 @@ export default {
                 r: 10
               },
               {
-                x: 0,
-                y: 100,
-                r: 5
+                x: 10,
+                y: 80,
+                r: 15
               },
               {
                 x: 80,
@@ -40,7 +40,7 @@ export default {
               },
               {
                 x: 20,
-                y: 30,
+                y: 40,
                 r: 25
               }
             ]
@@ -66,7 +66,7 @@ export default {
             stacked: false,
             ticks: {
               min: 0,
-              max: 100,
+              max: 400,
               fontColor: 'white'
             },
             gridLines: {
