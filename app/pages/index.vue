@@ -43,4 +43,16 @@ export default {
 .bubble1 {
   padding-top: 50px;
 }
+
+.bubble2 {
+  padding-left: 50px;
+}
+
+.bubble3 {
+  padding-left: 80px;
+}
+
+.bubble4 {
+  padding-top: 50px;
+}
 </style>
