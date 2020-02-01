@@ -29,10 +29,10 @@
       fixed
       app
       class="deep-purple accent-2"
-      style="opacity: 0.8; background:linear-gradient(#311B92,#7C4DFF);"
+      style="opacity: 0.8; background:linear-gradient(#311B92,#7C4DFF); padding-left: 20px;"
     >
       <v-btn @click.stop="drawer = !drawer" icon style="color: white;">
-        <v-icon large>
+        <v-icon x-large>
           mdi-fire
         </v-icon>
       </v-btn>
@@ -66,9 +66,9 @@
       :fixed="fixed"
       app
       class="deep-purple accent-2"
-      style="opacity: 0.8; background:linear-gradient(#311B92,#7C4DFF);"
+      style="opacity: 0.8; background:linear-gradient(#311B92,#7C4DFF); padding-left: 30px;"
     >
-      <span class="white--text" style="opacity: 0.8;">&copy; 2020</span>
+      <span class="white--text" style="opacity: 0.8;">&copy; 2020 torish</span>
     </v-footer>
   </v-app>
 </template>
