@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Consistency</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Consistency theme are keenly aware of the need to treat people the same. They crave stable routines and clear rules and procedures that everyone can follow.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Consistency theme are keenly aware of the need to treat people the same. <br> They crave stable routines and clear rules and procedures that everyone can follow.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Positivity</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Positivity theme have contagious enthusiasm. They are upbeat and can get others excited about what they are going to do.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Positivity theme have contagious enthusiasm.<br> They are upbeat and can get others excited about what they are going to do.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

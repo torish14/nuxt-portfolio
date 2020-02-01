@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Competition</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Competition theme measure their progress against the performance of others. They strive to win first place and revel in contests.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Competition theme measure their progress against the performance of others.<br> They strive to win first place and revel in contests.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

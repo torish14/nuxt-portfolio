@@ -8,8 +8,8 @@
         <v-expansion-panel-header style="background: rgba(68, 0, 0, 0.7);">
           Achiever
         </v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Achiever theme work hard and possess a great deal of stamina. They take immense satisfaction in being busy and productive.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Achiever theme work hard and possess a great deal of stamina. <br> They take immense satisfaction in being busy and productive.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

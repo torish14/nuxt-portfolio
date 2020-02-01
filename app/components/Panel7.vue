@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Significance</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Significance theme want to make a big impact. They are independent and prioritize projects based on how much influence they will have on their organization or people around them.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Significance theme want to make a big impact. <br>They are independent and prioritize projects based on how much influence they will have on their organization or people around them.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

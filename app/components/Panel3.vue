@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Communication</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Communication theme generally find it easy to put their thoughts into words. They are good conversationalists and presenters.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Communication theme generally find it easy to put their thoughts into words. <br> They are good conversationalists and presenters.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

@@ -88,7 +88,7 @@ export default {
         },
         {
           icon: 'mdi-alien-outline',
-          title: 'About',
+          title: 'About me',
           to: '/about'
         }
       ],

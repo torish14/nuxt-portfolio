@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Intellection</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Intellection theme are characterized by their intellectual activity. They are introspective and appreciate intellectual discussions.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Intellection theme are characterized by their intellectual activity.<br> They are introspective and appreciate intellectual discussions.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

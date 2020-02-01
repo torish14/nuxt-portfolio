@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Woo</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Woo theme love the challenge of meeting new people and winning them over. They derive satisfaction from breaking the ice and making a connection with someone.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Woo theme love the challenge of meeting new people and winning them over. <br> They derive satisfaction from breaking the ice and making a connection with someone.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

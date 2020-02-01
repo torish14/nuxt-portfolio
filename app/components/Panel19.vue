@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Context</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Context theme enjoy thinking about the past. They understand the present by researching its history.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Context theme enjoy thinking about the past.<br> They understand the present by researching its history.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

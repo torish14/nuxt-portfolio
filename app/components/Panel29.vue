@@ -6,7 +6,7 @@
         :key="i"
       >
         <v-expansion-panel-header>Empathy</v-expansion-panel-header>
-        <v-expansion-panel-content>
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
           People exceptionally talented in the Empathy theme can sense other people's feelings by imagining themselves in others' lives or situations.
         </v-expansion-panel-content>
       </v-expansion-panel>

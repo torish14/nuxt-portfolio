@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Restorative</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Restorative theme are adept at dealing with problems. They are good at figuring out what is wrong and resolving it.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Restorative theme are adept at dealing with problems. <br> They are good at figuring out what is wrong and resolving it.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

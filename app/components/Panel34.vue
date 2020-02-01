@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Relator</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Relator theme enjoy close relationships with others. They find deep satisfaction in working hard with friends to achieve a goal.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Relator theme enjoy close relationships with others.<br> They find deep satisfaction in working hard with friends to achieve a goal.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

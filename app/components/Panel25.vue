@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Strategic</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Strategic theme create alternative ways to proceed. Faced with any given scenario, they can quickly spot the relevant patterns and issues.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Strategic theme create alternative ways to proceed.<br> Faced with any given scenario, they can quickly spot the relevant patterns and issues.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

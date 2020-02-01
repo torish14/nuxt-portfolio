@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Focus</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Focus theme can take a direction, follow through and make the corrections necessary to stay on track. They prioritize, then act.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Focus theme can take a direction, follow through and make the corrections necessary to stay on track. <br> They prioritize, then act.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

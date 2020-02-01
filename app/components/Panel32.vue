@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Individualization</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Individualization theme are intrigued with the unique qualities of each person. They have a gift for figuring out how different people can work together productively.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Individualization theme are intrigued with the unique qualities of each person.<br> They have a gift for figuring out how different people can work together productively.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

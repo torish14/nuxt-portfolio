@@ -26,8 +26,8 @@
       Description
     </div>
     <div class="panel" style="display: flex;">
-      <div class="influencing" style="padding-right: 10px;">
-        <li style="font-size: 18px;">
+      <div class="influencing" style="padding-right: 15px;">
+        <li style="font-size: 18px; border-bottom: solid 2px rgba(255, 204, 0, 1); max-width: 120px;">
           influencing
         </li>
         <br>
@@ -40,8 +40,8 @@
         <Panel7 />
         <Panel8 />
       </div>
-      <div class="executing" style="padding-right: 10px;">
-        <li style="font-size: 18px;">
+      <div class="executing" style="padding-right: 15px;">
+        <li style="font-size: 18px; border-bottom: solid 2px rgba(68, 0, 0, 1); max-width: 110px;">
           executing
         </li>
         <br>
@@ -55,8 +55,8 @@
         <Panel16 />
         <Panel17 />
       </div>
-      <div class="strategic-thinking" style="padding-right: 10px;">
-        <li style="font-size: 18px;">
+      <div class="strategic-thinking" style="padding-right: 15px;">
+        <li style="font-size: 18px; border-bottom: solid 2px rgba(153, 51, 102, 1); max-width: 170px;">
           strategic-thinking
         </li>
         <br>
@@ -69,8 +69,8 @@
         <Panel24 />
         <Panel25 />
       </div>
-      <div class="relationship-building" style="padding-right: 10px;">
-        <li style="font-size: 18px;">
+      <div class="relationship-building" style="padding-right: 15px;">
+        <li style="font-size: 18px; border-bottom: solid 2px rgba(0, 51, 51, 1); max-width: 195px;">
           relationship-building
         </li>
         <br>
@@ -220,7 +220,7 @@ export default {
 
 .bubble3 {
   padding-left: 80px;
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .bubble4 {

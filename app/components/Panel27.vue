@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Connectedness</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Connectedness theme have faith in the links among all things. They believe there are few coincidences and that almost every event has meaning.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Connectedness theme have faith in the links among all things.<br> They believe there are few coincidences and that almost every event has meaning.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

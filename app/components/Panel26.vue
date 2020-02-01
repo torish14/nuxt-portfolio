@@ -8,8 +8,8 @@
         <v-expansion-panel-header style="background: rgba(0, 51, 51, 0.7);">
           Adaptability
         </v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Adaptability theme prefer to go with the flow. They tend to be "now" people who take things as they come and discover the future one day at a time.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Adaptability theme prefer to go with the flow.<br> They tend to be "now" people who take things as they come and discover the future one day at a time.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

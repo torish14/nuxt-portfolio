@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Maximizer</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Maximizer theme focus on strengths as a way to stimulate personal and group excellence. They seek to transform something strong into something superb.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Maximizer theme focus on strengths as a way to stimulate personal and group excellence.<br> They seek to transform something strong into something superb.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

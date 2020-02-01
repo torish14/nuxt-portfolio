@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Self-Assurance</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Self-Assurance theme feel confident in their ability to take risks and manage their own lives. They have an inner compass that gives them certainty in their decisions.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the <br> Self-Assurance theme feel confident in their ability to take risks and manage their own lives.<br> They have an inner compass that gives them certainty in their decisions.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

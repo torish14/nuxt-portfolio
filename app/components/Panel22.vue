@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Input</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Input theme have a need to collect and archive. They may accumulate information, ideas, artifacts or even relationships.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Input theme have a need to collect and archive.<br> They may accumulate information, ideas, artifacts or even relationships.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

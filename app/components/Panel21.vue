@@ -6,8 +6,8 @@
         :key="i"
       >
         <v-expansion-panel-header>Ideation</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          People exceptionally talented in the Ideation theme are fascinated by ideas. They are able to find connections between seemingly disparate phenomena.
+        <v-expansion-panel-content style="font-size: 14px; font-weight: 300">
+          People exceptionally talented in the Ideation theme are fascinated by ideas. <br>They are able to find connections between seemingly disparate phenomena.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>
