@@ -1,19 +1,28 @@
 <template>
-  <v-layout>
-    <v-flex class="text-center">
-      <img
-        src="/v.png"
-        alt="Vuetify.js"
-        class="mb-5"
-      >
-      <blockquote class="blockquote">
-        &#8220;First, solve the problem. Then, write the code.&#8221;
-        <footer>
-          <small>
-            <em>&mdash;John Johnson</em>
-          </small>
-        </footer>
-      </blockquote>
-    </v-flex>
-  </v-layout>
+  <section class="container">
+    <div class="loader">
+      <Loading />
+    </div>
+    <div class="text">
+      <p>Under development...</p>
+    </div>
+  </section>
 </template>
+
+<script>
+import Loading from '~/components/Loading'
+
+export default {
+  components: {
+    Loading
+  }
+}
+</script>
+
+<style>
+.text {
+  position: relative;
+  top: 290px;
+  left: 380px;
+}
+</style>
