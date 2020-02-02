@@ -11,7 +11,7 @@
     <div class="bubble1" style="pointer-events: none;">
       <Bubble1 />
     </div>
-    <div class="heading1" style="font-size: 40px; font-weight: 100; padding-bottom: 20px;">
+    <div class="heading1" style="font-size: 40px; font-weight: 100; position: relative; bottom: 30px;">
       Formation
     </div>
     <div class="card">
@@ -19,14 +19,14 @@
       <Card2 />
       <Card3 />
     </div>
-    <div class="bubble2" style="pointer-events: none; padding-bottom: 50px;">
+    <div class="bubble2" style="pointer-events: none;">
       <Bubble2 />
     </div>
-    <div class="heading2" style="font-size: 40px; font-weight: 100; padding-bottom: 30px;">
+    <div class="heading2" style="font-size: 40px; font-weight: 100; position: relative; top: 40px;">
       Description
     </div>
     <div class="panel" style="display: flex;">
-      <div class="influencing" style="padding-right: 15px;">
+      <div class="influencing" style="position: relative; top: 70px;">
         <li style="font-size: 18px; border-bottom: solid 2px rgba(255, 204, 0, 1); max-width: 120px;">
           influencing
         </li>
@@ -40,7 +40,7 @@
         <Panel7 />
         <Panel8 />
       </div>
-      <div class="executing" style="padding-right: 15px;">
+      <div class="executing" style="position: relative; top: 70px; left: 20px;">
         <li style="font-size: 18px; border-bottom: solid 2px rgba(68, 0, 0, 1); max-width: 110px;">
           executing
         </li>
@@ -55,7 +55,7 @@
         <Panel16 />
         <Panel17 />
       </div>
-      <div class="strategic-thinking" style="padding-right: 15px;">
+      <div class="strategic-thinking" style="position: relative; top: 70px; left: 40px;">
         <li style="font-size: 18px; border-bottom: solid 2px rgba(153, 51, 102, 1); max-width: 170px;">
           strategic-thinking
         </li>
@@ -69,7 +69,7 @@
         <Panel24 />
         <Panel25 />
       </div>
-      <div class="relationship-building" style="padding-right: 15px;">
+      <div class="relationship-building" style="position: relative; top: 70px; left: 60px;">
         <li style="font-size: 18px; border-bottom: solid 2px rgba(0, 51, 51, 1); max-width: 195px;">
           relationship-building
         </li>
@@ -88,12 +88,16 @@
     <div class="bubble3" style="pointer-events: none;">
       <Bubble3 />
     </div>
-    <div class="heading3" style="font-size: 40px; font-weight: 100; padding-bottom: 20px; margin-top: 50px;">
+    <div class="heading3" style="font-size: 40px; font-weight: 100; position: relative; top: 60px;">
       My themes
     </div>
-    <div class="image" style="margin-left: 40px;">
-      <img src="~/assets/Clifton DNA.png" alt="" style="width: 1000px;">
-      <div class="strengthen" style="padding-top: 20px; padding-left: 12px;">
+    <div class="image" style="position: relative; top: 90px; left: 40px;">
+      <v-hover v-slot:default="{ hover }" close-delay="200">
+        <v-card :elevation="hover ? 16 : 2" max-width="990">
+          <img src="~/assets/Clifton DNA.png" alt="" style="">
+        </v-card>
+      </v-hover>
+      <div class="strengthen" style="position: relative; top: 20px;">
         <p><strong style="font-size: 14px;">Strengthen</strong></p>
         <p><strong style="border-left: solid 4px rgba(255, 204, 0, 1); padding-left: 8px;">1. Self-Assurance</strong></p>
         <p><strong style="border-left: solid 4px rgba(255, 204, 0, 1); padding-left: 8px;">2. Command</strong></p>
@@ -116,7 +120,7 @@
           10. Achiever
         </p>
       </div>
-      <div class="confirm1" style="position: relative; top: -440px; left: 280px;">
+      <div class="confirm1" style="position: relative; top: -420px; left: 280px;">
         <p><strong style="font-size: 14px;">Confirm</strong></p>
         <p style="border-left: solid 4px rgba(255, 204, 0, 1); padding-left: 8px;">
           11. Woo
@@ -149,7 +153,7 @@
           20. Significance
         </p>
       </div>
-      <div class="confirm2" style="position: relative; top: -840px; left: 560px;">
+      <div class="confirm2" style="position: relative; top: -820px; left: 560px;">
         <p style="border-left: solid 4px rgba(0, 51, 51, 1); padding-left: 8px;">
           21. Positivity
         </p>
@@ -181,7 +185,7 @@
           30. Context
         </p>
       </div>
-      <div class="confirm3" style="position: relative; top: -1240px; left: 840px;">
+      <div class="confirm3" style="position: relative; top: -1220px; left: 840px;">
         <p style="border-left: solid 4px rgba(68, 0, 0, 1); padding-left: 8px;">
           31. Restorative
         </p>
@@ -196,8 +200,14 @@
         </p>
       </div>
     </div>
-    <div class="bubble4" style="pointer-events: none;">
+    <div class="bubble4" style="pointer-events: none; position: relative; bottom: 120px;;">
       <Bubble4 />
+    </div>
+    <div class="heading3" style="font-size: 40px; font-weight: 100; position: relative; bottom: 50px;">
+      Contact
+    </div>
+    <div class="contact">
+      <ContactForm style="position: relative; bottom: 20px;" />
     </div>
   </section>
 </template>
@@ -244,6 +254,7 @@ import Panel31 from '~/components/Panel31'
 import Panel32 from '~/components/Panel32'
 import Panel33 from '~/components/Panel33'
 import Panel34 from '~/components/Panel34'
+import ContactForm from '~/components/ContactForm'
 
 export default {
   components: {
@@ -287,7 +298,8 @@ export default {
     Panel31,
     Panel32,
     Panel33,
-    Panel34
+    Panel34,
+    ContactForm
   },
   data () {
     return {
@@ -298,12 +310,9 @@ export default {
 </script>
 
 <style>
-.container {
-}
-
-.title {
-  position: absolute;
-  padding-right: 50px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .heading1 {
@@ -322,17 +331,13 @@ export default {
 
 .bubble2 {
   padding-left: 50px;
-  padding-top: -50px;
-  padding-bottom: 50px;
 }
 
 .bubble3 {
   padding-left: 80px;
-  padding-bottom: 50px;
 }
 
 .bubble4 {
   position: relative;
-  top: -800px;
 }
 </style>
