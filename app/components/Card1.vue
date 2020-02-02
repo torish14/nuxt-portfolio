@@ -22,7 +22,7 @@
     </v-card-subtitle>
 
     <v-card-text class="text--primary" style="font-size: 15px;">
-      <div><br>The development of the Strength Finder started with<br> an interview with 2 million people who unconsciously explored what talents were being used when one was performing.</div>
+      <div><br>The development of the Strengths Finder started<br> an interview with 2 million people who unconsciously explored what "talents" were being used when one was performing.</div>
     </v-card-text>
 
     <!-- <v-card-actions style="bottom: 20px;">

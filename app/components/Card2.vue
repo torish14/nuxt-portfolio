@@ -19,7 +19,7 @@
 
     <v-card-text class="text--primary" style="font-size: 15px;">
       <div>
-        <br>In the interview, about 5,000 different talents were found.
+        <br>In the interview, about 5,000 different "talents" were found.
         <br>Talent is a pattern of thoughts, emotions and behaviors that appear unconsciously.
       </div>
     </v-card-text>
