@@ -3,6 +3,7 @@ const nodemailer = require('nodemailer')
 const gmailEmail = functions.config().gmail.email
 const gmailPassword = functions.config().gmail.password
 const adminEmail = functions.config().admin.email
+const cors = require('cors')({ origin: true })
 
 // 送信に使用するメールサーバーの設定
 const mailTransport = nodemailer.createTransport({
@@ -38,12 +39,12 @@ exports.sendMail = functions.https.onCall((data, context) => {
   }
 
   // 管理者へのメール送信
-  mailTransport.sendMail(adminMail, (err, info) => {
+  cors(mailTransport.sendMail(adminMail, (err, info) => {
     if (err) {
       return console.error(`admin send failed. ${err}`)
     }
-    return console.log('admin send success.')
-  })
+    return console.log('admin and send success.')
+  }))
 })
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
