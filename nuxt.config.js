@@ -1,7 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   srcDir: 'app',
   /*
   ** Headers of the page
@@ -46,7 +46,8 @@ export default {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa'
   ],
   /*
   ** Axios module configuration
@@ -92,6 +93,9 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-    }
+      const HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
+      config.plugins.push(new HardSourceWebpackPlugin())
+    },
+    vendeer: ['moment']
   }
 }

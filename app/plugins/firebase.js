@@ -1,4 +1,4 @@
-import * as firebase from 'firebase/app'
+import firebase from 'firebase/app'
 
 import 'firebase/functions'
 
@@ -12,6 +12,9 @@ const config = {
   appId: '1:998350722847:web:fee8d877fd8caf600c022a',
   measurementId: 'G-51KYMFXE8K'
 }
-firebase.initializeApp(config)
+
+if (!firebase.apps.length) {
+  firebase.initializeApp(config)
+}
 
 export const functions = firebase.functions()
