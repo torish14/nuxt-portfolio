@@ -32,57 +32,27 @@
         </li>
         <br>
         <Panel1 />
-        <Panel2 />
-        <Panel3 />
-        <Panel4 />
-        <Panel5 />
-        <Panel6 />
-        <Panel7 />
-        <Panel8 />
       </div>
       <div class="executing" style="position: relative; top: 70px; left: 20px;">
         <li style="font-size: 18px; border-bottom: solid 2px rgba(68, 0, 0, 1); max-width: 110px;">
           executing
         </li>
         <br>
-        <Panel9 />
-        <Panel10 />
-        <Panel11 />
-        <Panel12 />
-        <Panel13 />
-        <Panel14 />
-        <Panel15 />
-        <Panel16 />
-        <Panel17 />
+        <Panel2 />
       </div>
       <div class="strategic-thinking" style="position: relative; top: 70px; left: 40px;">
         <li style="font-size: 18px; border-bottom: solid 2px rgba(153, 51, 102, 1); max-width: 170px;">
           strategic-thinking
         </li>
         <br>
-        <Panel18 />
-        <Panel19 />
-        <Panel20 />
-        <Panel21 />
-        <Panel22 />
-        <Panel23 />
-        <Panel24 />
-        <Panel25 />
+        <Panel3 />
       </div>
       <div class="relationship-building" style="position: relative; top: 70px; left: 60px;">
         <li style="font-size: 18px; border-bottom: solid 2px rgba(0, 51, 51, 1); max-width: 195px;">
           relationship-building
         </li>
         <br>
-        <Panel26 />
-        <Panel27 />
-        <Panel28 />
-        <Panel29 />
-        <Panel30 />
-        <Panel31 />
-        <Panel32 />
-        <Panel33 />
-        <Panel34 />
+        <Panel4 />
       </div>
     </div>
     <div class="bubble3" style="pointer-events: none;">
@@ -224,36 +194,6 @@ import Panel1 from '~/components/Panel1'
 import Panel2 from '~/components/Panel2'
 import Panel3 from '~/components/Panel3'
 import Panel4 from '~/components/Panel4'
-import Panel5 from '~/components/Panel5'
-import Panel6 from '~/components/Panel6'
-import Panel7 from '~/components/Panel7'
-import Panel8 from '~/components/Panel8'
-import Panel9 from '~/components/Panel9'
-import Panel10 from '~/components/Panel10'
-import Panel11 from '~/components/Panel11'
-import Panel12 from '~/components/Panel12'
-import Panel13 from '~/components/Panel13'
-import Panel14 from '~/components/Panel14'
-import Panel15 from '~/components/Panel15'
-import Panel16 from '~/components/Panel16'
-import Panel17 from '~/components/Panel17'
-import Panel18 from '~/components/Panel18'
-import Panel19 from '~/components/Panel19'
-import Panel20 from '~/components/Panel20'
-import Panel21 from '~/components/Panel21'
-import Panel22 from '~/components/Panel22'
-import Panel23 from '~/components/Panel23'
-import Panel24 from '~/components/Panel24'
-import Panel25 from '~/components/Panel25'
-import Panel26 from '~/components/Panel26'
-import Panel27 from '~/components/Panel27'
-import Panel28 from '~/components/Panel28'
-import Panel29 from '~/components/Panel29'
-import Panel30 from '~/components/Panel30'
-import Panel31 from '~/components/Panel31'
-import Panel32 from '~/components/Panel32'
-import Panel33 from '~/components/Panel33'
-import Panel34 from '~/components/Panel34'
 import ContactForm from '~/components/ContactForm'
 
 export default {
@@ -269,36 +209,6 @@ export default {
     Panel2,
     Panel3,
     Panel4,
-    Panel5,
-    Panel6,
-    Panel7,
-    Panel8,
-    Panel9,
-    Panel10,
-    Panel11,
-    Panel12,
-    Panel13,
-    Panel14,
-    Panel15,
-    Panel16,
-    Panel17,
-    Panel18,
-    Panel19,
-    Panel20,
-    Panel21,
-    Panel22,
-    Panel23,
-    Panel24,
-    Panel25,
-    Panel26,
-    Panel27,
-    Panel28,
-    Panel29,
-    Panel30,
-    Panel31,
-    Panel32,
-    Panel33,
-    Panel34,
     ContactForm
   },
   data () {
