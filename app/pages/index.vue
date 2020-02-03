@@ -91,12 +91,12 @@
     <div class="heading3" style="font-size: 40px; font-weight: 100; position: relative; top: 60px;">
       My themes
     </div>
-    <div class="image" style="position: relative; top: 90px; left: 40px;">
-      <v-hover v-slot:default="{ hover }" close-delay="200">
-        <v-card :elevation="hover ? 16 : 2" max-width="990">
-          <img src="~/assets/Clifton DNA.png" alt="" style="">
-        </v-card>
-      </v-hover>
+    <div class="image" style="position: relative; top: 90px; left: 40px; height: 900px;">
+      <!-- <v-hover v-slot:default="{ hover }" close-delay="200">
+        <v-card :elevation="hover ? 16 : 2" max-width="990"> -->
+      <img src="~/assets/Clifton DNA.png" alt="" style="">
+      <!-- </v-card>
+      </v-hover> -->
       <div class="strengthen" style="position: relative; top: 20px;">
         <p><strong style="font-size: 14px;">Strengthen</strong></p>
         <p><strong style="border-left: solid 4px rgba(255, 204, 0, 1); padding-left: 8px;">1. Self-Assurance</strong></p>
@@ -338,6 +338,5 @@ export default {
 }
 
 .bubble4 {
-  position: relative;
 }
 </style>
