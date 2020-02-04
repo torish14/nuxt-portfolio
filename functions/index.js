@@ -29,7 +29,7 @@ ${data.contents}
 `
 }
 
-exports.sendMail = functions.https.onCall((data, context) => {
+exports.sendMail = functions.region('asia-northeast1').https.onCall((data, context) => {
   // メール設定
   const adminMail = {
     from: gmailEmail,
