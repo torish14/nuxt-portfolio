@@ -58,10 +58,10 @@
     <div class="bubble3" style="pointer-events: none;">
       <Bubble3 />
     </div>
-    <div class="heading3" style="font-size: 40px; font-weight: 100; position: relative; top: 60px;">
+    <div class="heading3" style="font-size: 40px; font-weight: 100; position: relative; bottom:110px;">
       My themes
     </div>
-    <div class="image" style="position: relative; top: 90px; left: 40px; height: 900px;">
+    <div class="image" style="position: relative; bottom: 80px; left: 40px; height: 900px;">
       <!-- <v-hover v-slot:default="{ hover }" close-delay="200">
         <v-card :elevation="hover ? 16 : 2" max-width="990"> -->
       <img src="~/assets/Clifton DNA.png" alt="" style="">
@@ -170,14 +170,14 @@
         </p>
       </div>
     </div>
-    <div class="bubble4" style="pointer-events: none; position: relative; bottom: 120px;;">
+    <div class="bubble4" style="pointer-events: none;">
       <Bubble4 />
     </div>
-    <div class="heading3" style="font-size: 40px; font-weight: 100; position: relative; bottom: 50px;">
+    <div class="heading3" style="font-size: 40px; font-weight: 100; position: relative; bottom: 90px;">
       Contact
     </div>
     <div class="contact">
-      <ContactForm style="position: relative; bottom: 20px;" />
+      <ContactForm style="position: relative; bottom: 60px;" />
     </div>
   </section>
 </template>
@@ -245,8 +245,12 @@ export default {
 
 .bubble3 {
   padding-left: 80px;
+  position: relative;
+  bottom: 250px;
 }
 
 .bubble4 {
+  position: relative;
+  bottom: 150px;
 }
 </style>
