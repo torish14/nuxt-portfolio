@@ -23,6 +23,8 @@
     "firebase-tools": "^7.12.1",
     "hard-source-webpack-plugin": "^0.13.1",
     "nuxt": "^2.0.0",
+    "nuxt-brotli": "^1.1.1",
+    "sitespeed.io": "^11.9.3",
     "vue-chartjs": "^3.5.0",
     "yarn": "^1.21.1"
   },

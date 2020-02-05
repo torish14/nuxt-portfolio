@@ -12,7 +12,7 @@
       <Bubble1 />
     </div>
     <div class="heading1" style="font-size: 40px; font-weight: 100; position: relative; bottom: 30px;">
-      Formation
+      History
     </div>
     <div class="card">
       <Card1 />
