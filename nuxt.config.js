@@ -85,8 +85,8 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-      const HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
-      config.plugins.push(new HardSourceWebpackPlugin())
+      // const HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
+      // config.plugins.push(new HardSourceWebpackPlugin())
 
       // external に moment を追加して、読み込まないようにする
       config.externals = {
