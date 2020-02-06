@@ -29,7 +29,7 @@ ${data.contents}
 `
 }
 
-exports.sendMail = functions.region('asia-northeast1').https.onCall((data, context) => {
+exports.sendMailNew = functions.region('asia-northeast1').https.onCall((data, context) => {
   // メール設定
   const adminMail = {
     from: gmailEmail,
@@ -39,7 +39,7 @@ exports.sendMail = functions.region('asia-northeast1').https.onCall((data, conte
   }
 
   // 管理者へのメール送信
-  cors(mailTransport.sendMail(adminMail, (err, info) => {
+  cors(mailTransport.sendMailNew(adminMail, (err, info) => {
     if (err) {
       return console.error(`admin send failed. ${err}`)
     }
