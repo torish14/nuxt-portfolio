@@ -12,28 +12,29 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/axios": "^5.9.5",
     "@nuxtjs/google-analytics": "^2.2.3",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "chart.js": "^2.9.3",
     "cors": "^2.8.5",
-    "firebase": "^7.8.0",
+    "firebase": "^7.8.1",
     "firebase-admin": "^8.9.2",
     "firebase-functions": "^3.3.0",
     "firebase-tools": "^7.12.1",
     "hard-source-webpack-plugin": "^0.13.1",
-    "nuxt": "^2.0.0",
+    "npm-check-updates": "^4.0.1",
+    "nuxt": "^2.11.0",
     "nuxt-brotli": "^1.1.1",
-    "sitespeed.io": "^11.9.3",
+    "sitespeed.io": "^12.0.1",
     "vue-chartjs": "^3.5.0",
-    "yarn": "^1.21.1"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^1.0.1",
-    "@nuxtjs/eslint-module": "^1.0.0",
-    "@nuxtjs/vuetify": "^1.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.1.0",
-    "eslint-plugin-nuxt": ">=0.4.2"
+    "@nuxtjs/eslint-config": "^2.0.2",
+    "@nuxtjs/eslint-module": "^1.1.0",
+    "@nuxtjs/vuetify": "^1.10.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-nuxt": ">=0.5.1"
   }
 }

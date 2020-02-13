@@ -31,13 +31,13 @@
       class="deep-purple accent-2"
       style="opacity: 0.8; background:linear-gradient(#311B92,#7C4DFF); padding-left: 20px;"
     >
-      <v-btn @click.stop="drawer = !drawer" icon style="color: white;">
+      <v-btn icon style="color: white;" @click.stop="drawer = !drawer">
         <v-icon x-large>
           mdi-fire
         </v-icon>
       </v-btn>
 
-      <v-toolbar-title v-text="title" class="white--text" />
+      <v-toolbar-title class="white--text" v-text="title" />
       <v-spacer />
     </v-app-bar>
     <v-content>

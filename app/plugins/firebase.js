@@ -2,7 +2,7 @@ import firebase from 'firebase/app'
 
 import 'firebase/functions'
 
-const config = {
+export const config = {
   apiKey: 'AIzaSyBXkzSwGiOGWbtBdbOY8OiWixu_ZgChhtE',
   authDomain: 'nuxt-portfolio-8b1de.firebaseapp.com',
   databaseURL: 'https://nuxt-portfolio-8b1de.firebaseio.com',

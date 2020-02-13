@@ -24,11 +24,11 @@
           <v-btn
             :loading="contactForm.loading"
             :disabled="!contactFormValidation.valid"
-            @click="sendMail()"
             block
             large
             color="accent"
             class="mt-4 font-weight-bold"
+            @click="sendMailNew()"
           >
             Send
           </v-btn>
@@ -72,10 +72,10 @@ export default {
     }
   }),
   methods: {
-    sendMail () {
+    sendMailNew () {
       if (this.$refs.form.validate()) {
         this.contactForm.loading = true
-        const mailer = functions.httpsCallable('sendMail')
+        const mailer = functions.httpsCallable('sendMailNew')
 
         mailer(this.contactForm)
           .then(() => {
