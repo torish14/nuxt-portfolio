@@ -83,19 +83,19 @@
           <h1>Faculty Of Law</h1>
           <h2>HTML & CSS</h2>
           <h3>Rethink My Life</h3>
-          <h4>Develop A Dating App</h4>
-          <h5>Ruby And Ruby On Rails</h5>
+          <h4>Develop Dating App</h4>
+          <h5>Ruby, Ruby On Rails</h5>
         </div>
         <div class="text111">
           <h1>Department Of Law</h1>
-          <h2>With Progate</h2>
-          <h3>Meet The Strengths Finder</h3>
+          <h2>With Progate Service</h2>
+          <h3>Meet Strengths Finder</h3>
           <h4>Now Development</h4>
-          <h5>Learn Database Design And Apps Design</h5>
+          <h5>Learn Apps Design</h5>
         </div>
         <div class="text1111">
-          <h1>2015-2018</h1>
-          <h2>2018-</h2>
+          <h1>2015</h1>
+          <h2>2018</h2>
           <h3>2019</h3>
           <h4>2019</h4>
           <h5>2019</h5>
@@ -113,6 +113,33 @@
           <h2>Figma</h2>
           <h3>Affiniy Designer</h3>
         </div>
+        <div class="avatar1">
+          <Avatar />
+        </div>
+        <div class="avatar2">
+          <Avatar />
+        </div>
+        <div class="avatar3">
+          <Avatar />
+        </div>
+        <div class="avatar4">
+          <Avatar />
+        </div>
+        <div class="avatar5">
+          <Avatar />
+        </div>
+        <div class="avatar6">
+          <Avatar />
+        </div>
+        <div class="avatar7">
+          <Avatar />
+        </div>
+        <div class="avatar8">
+          <Avatar />
+        </div>
+        <div class="avatar9">
+          <Avatar />
+        </div>
       </div>
       <div class="talk">
         <h1>
@@ -127,12 +154,14 @@
 // import Loading from '~/components/Loading'
 import Panel5 from '~/components/Panel5'
 import Bubble5 from '~/components/Bubble5'
+import Avatar from '~/components/Avatar'
 
 export default {
   components: {
     //     Loading
     Panel5,
-    Bubble5
+    Bubble5,
+    Avatar
   }
 }
 </script>
@@ -470,9 +499,12 @@ export default {
   color: white;
   font-size: 18px;
   font-weight: 300;
-  height: 100px;
+  height: 120px;
   border-left: solid 2px cyan;
   padding-left: 8px;
+  width: 260px;
+  border-bottom: solid 2px cyan;
+  padding-bottom: 8px;
 }
 
 .skill .text1 h2 {
@@ -482,9 +514,12 @@ export default {
   color: white;
   font-size: 18px;
   font-weight: 300;
-  height: 100px;
+  height: 120px;
   border-left: solid 2px cyan;
   padding-left: 8px;
+  width: 260px;
+  border-bottom: solid 2px cyan;
+  padding-bottom: 8px;
 }
 
 .skill .text1 h3 {
@@ -494,9 +529,12 @@ export default {
   color: white;
   font-size: 18px;
   font-weight: 300;
-  height: 100px;
+  height: 120px;
   border-left: solid 2px cyan;
   padding-left: 8px;
+  width: 260px;
+  border-bottom: solid 2px cyan;
+  padding-bottom: 8px;
 }
 
 .skill .text1 h4 {
@@ -506,9 +544,12 @@ export default {
   color: white;
   font-size: 18px;
   font-weight: 300;
-  height: 100px;
+  height: 120px;
   border-left: solid 2px cyan;
   padding-left: 8px;
+  width: 260px;
+  border-bottom: solid 2px cyan;
+  padding-bottom: 8px;
 }
 
 .skill .text1 h5 {
@@ -518,14 +559,17 @@ export default {
   color: white;
   font-size: 18px;
   font-weight: 300;
-  height: 100px;
+  height: 120px;
   border-left: solid 2px cyan;
   padding-left: 8px;
+  width: 260px;
+  border-bottom: solid 2px cyan;
+  padding-bottom: 8px;
 }
 
 .skill .text11 h1 {
   position: relative;
-  bottom: 1110px;
+  bottom: 1570px;
   left: 310px;
   color: cyan;
   font-size: 22px;
@@ -534,7 +578,7 @@ export default {
 
 .skill .text11 h2 {
   position: relative;
-  bottom: 995px;
+  bottom: 1360px;
   left: 310px;
   color: cyan;
   font-size: 22px;
@@ -543,7 +587,7 @@ export default {
 
 .skill .text11 h3 {
   position: relative;
-  bottom: 880px;
+  bottom: 1155px;
   left: 310px;
   color: cyan;
   font-size: 22px;
@@ -552,7 +596,7 @@ export default {
 
 .skill .text11 h4 {
   position: relative;
-  bottom: 765px;
+  bottom: 950px;
   left: 310px;
   color: cyan;
   font-size: 22px;
@@ -561,7 +605,7 @@ export default {
 
 .skill .text11 h5 {
   position: relative;
-  bottom: 650px;
+  bottom: 740px;
   left: 310px;
   color: cyan;
   font-size: 22px;
@@ -570,8 +614,8 @@ export default {
 
 .skill .text111 h1 {
   position: relative;
-  bottom: 1242px;
-  left: 360px;
+  bottom: 1700px;
+  left: 378px;
   color: white;
   font-size: 18px;
   font-weight: 300;
@@ -579,8 +623,8 @@ export default {
 
 .skill .text111 h2 {
   position: relative;
-  bottom: 1123px;
-  left: 360px;
+  bottom: 1485px;
+  left: 365px;
   color: white;
   font-size: 18px;
   font-weight: 300;
@@ -588,8 +632,8 @@ export default {
 
 .skill .text111 h3 {
   position: relative;
-  bottom: 1000px;
-  left: 360px;
+  bottom: 1275px;
+  left: 356px;
   color: white;
   font-size: 18px;
   font-weight: 300;
@@ -597,8 +641,8 @@ export default {
 
 .skill .text111 h4 {
   position: relative;
-  bottom: 878px;
-  left: 360px;
+  bottom: 1065px;
+  left: 385px;
   color: white;
   font-size: 18px;
   font-weight: 300;
@@ -606,8 +650,8 @@ export default {
 
 .skill .text111 h5 {
   position: relative;
-  bottom: 760px;
-  left: 360px;
+  bottom: 850px;
+  left: 383px;
   color: white;
   font-size: 18px;
   font-weight: 300;
@@ -615,8 +659,8 @@ export default {
 
 .skill .text1111 h1 {
   position: relative;
-  bottom: 1348px;
-  left: 430px;
+  bottom: 1810px;
+  left: 500px;
   color: white;
   font-size: 13px;
   font-weight: 300;
@@ -624,8 +668,8 @@ export default {
 
 .skill .text1111 h2 {
   position: relative;
-  bottom: 1222px;
-  left: 430px;
+  bottom: 1587px;
+  left: 500px;
   color: white;
   font-size: 13px;
   font-weight: 300;
@@ -633,8 +677,8 @@ export default {
 
 .skill .text1111 h3 {
   position: relative;
-  bottom: 1090px;
-  left: 430px;
+  bottom: 1367px;
+  left: 500px;
   color: white;
   font-size: 13px;
   font-weight: 300;
@@ -642,8 +686,8 @@ export default {
 
 .skill .text1111 h4 {
   position: relative;
-  bottom: 958px;
-  left: 430px;
+  bottom: 1147px;
+  left: 500px;
   color: white;
   font-size: 13px;
   font-weight: 300;
@@ -651,8 +695,8 @@ export default {
 
 .skill .text1111 h5 {
   position: relative;
-  bottom: 835px;
-  left: 430px;
+  bottom: 925px;
+  left: 500px;
   color: white;
   font-size: 13px;
   font-weight: 300;
@@ -660,7 +704,7 @@ export default {
 
 .skill .title2 {
   position: relative;
-  bottom: 1553px;
+  bottom: 2053px;
   left: 700px;
   color: cyan;
   font-size: 28px;
@@ -669,7 +713,7 @@ export default {
 
 .skill .text2 h1 {
   position: relative;
-  bottom: 1550px;
+  bottom: 2000px;
   left: 730px;
   color: cyan;
   font-size: 18px;
@@ -678,7 +722,7 @@ export default {
 
 .skill .text2 h2 {
   position: relative;
-  bottom: 1320px;
+  bottom: 1780px;
   left: 730px;
   color: cyan;
   font-size: 18px;
@@ -687,7 +731,7 @@ export default {
 
 .skill .text2 h3 {
   position: relative;
-  bottom: 1090px;
+  bottom: 1560px;
   left: 730px;
   color: cyan;
   font-size: 18px;
@@ -696,7 +740,7 @@ export default {
 
 .skill .text22 h1 {
   position: relative;
-  bottom: 1590px;
+  bottom: 2020px;
   left: 730px;
   color: white;
   font-size: 16px;
@@ -705,7 +749,7 @@ export default {
 
 .skill .text22 h2 {
   position: relative;
-  bottom: 1540px;
+  bottom: 1980px;
   left: 730px;
   color: white;
   font-size: 16px;
@@ -714,11 +758,74 @@ export default {
 
 .skill .text22 h3 {
   position: relative;
-  bottom: 1490px;
+  bottom: 1940px;
   left: 730px;
   color: white;
   font-size: 16px;
   font-weight: 300;
+}
+
+.avatar1 {
+  position: relative;
+  bottom: 2087px;
+  left: 180px;
+  color: cyan;
+}
+
+.avatar2 {
+  position: relative;
+  bottom: 2102px;
+  left: 210px;
+  color: cyan;
+}
+
+.avatar3 {
+  position: relative;
+  bottom: 2117px;
+  left: 240px;
+  color: cyan;
+}
+
+.avatar4 {
+  position: relative;
+  bottom: 2065px;
+  left: 180px;
+  color: cyan;
+}
+
+.avatar5 {
+  position: relative;
+  bottom: 2080px;
+  left: 210px;
+  color: cyan;
+}
+
+.avatar6 {
+  position: relative;
+  bottom: 2095px;
+  left: 240px;
+  color: cyan;
+}
+
+.avatar7 {
+  position: relative;
+  bottom: 2050px;
+  left: 180px;
+  color: cyan;
+}
+
+.avatar8 {
+  position: relative;
+  bottom: 2065px;
+  left: 210px;
+  color: cyan;
+}
+
+.avatar9 {
+  position: relative;
+  bottom: 2080px;
+  left: 240px;
+  color: cyan;
 }
 
 .talk h1 {
