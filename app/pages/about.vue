@@ -140,6 +140,19 @@
         <div class="avatar9">
           <Avatar />
         </div>
+        <div class="text222">
+          <h1>HTML & CSS</h1>
+          <h2>JavaScript</h2>
+          <h3>Vue.js</h3>
+          <h4>Nuxt.js</h4>
+          <h5>Ruby</h5>
+          <h6>Python</h6>
+        </div>
+        <div class="text2222">
+          <h1>Web Design</h1>
+          <h2>Marketing</h2>
+          <h3>Coaching</h3>
+        </div>
       </div>
       <div class="talk">
         <h1>
@@ -509,7 +522,7 @@ export default {
 
 .skill .text1 h2 {
   position: relative;
-  bottom: 880px;
+  bottom: 920px;
   left: 270px;
   color: white;
   font-size: 18px;
@@ -524,7 +537,7 @@ export default {
 
 .skill .text1 h3 {
   position: relative;
-  bottom: 760px;
+  bottom: 840px;
   left: 270px;
   color: white;
   font-size: 18px;
@@ -539,7 +552,7 @@ export default {
 
 .skill .text1 h4 {
   position: relative;
-  bottom: 640px;
+  bottom: 760px;
   left: 270px;
   color: white;
   font-size: 18px;
@@ -554,7 +567,7 @@ export default {
 
 .skill .text1 h5 {
   position: relative;
-  bottom: 520px;
+  bottom: 680px;
   left: 270px;
   color: white;
   font-size: 18px;
@@ -731,7 +744,7 @@ export default {
 
 .skill .text2 h3 {
   position: relative;
-  bottom: 1560px;
+  bottom: 1380px;
   left: 730px;
   color: cyan;
   font-size: 18px;
@@ -741,91 +754,172 @@ export default {
 .skill .text22 h1 {
   position: relative;
   bottom: 2020px;
-  left: 730px;
+  left: 750px;
   color: white;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300;
 }
 
 .skill .text22 h2 {
   position: relative;
   bottom: 1980px;
-  left: 730px;
+  left: 750px;
   color: white;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300;
 }
 
 .skill .text22 h3 {
   position: relative;
   bottom: 1940px;
-  left: 730px;
+  left: 750px;
   color: white;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300;
 }
 
 .avatar1 {
   position: relative;
-  bottom: 2087px;
-  left: 180px;
+  bottom: 2075px;
+  left: 210px;
   color: cyan;
 }
 
 .avatar2 {
   position: relative;
-  bottom: 2102px;
-  left: 210px;
+  bottom: 2090px;
+  left: 240px;
   color: cyan;
 }
 
 .avatar3 {
   position: relative;
-  bottom: 2117px;
-  left: 240px;
+  bottom: 2105px;
+  left: 270px;
   color: cyan;
 }
 
 .avatar4 {
   position: relative;
-  bottom: 2065px;
-  left: 180px;
+  bottom: 2060px;
+  left: 210px;
   color: cyan;
 }
 
 .avatar5 {
   position: relative;
-  bottom: 2080px;
-  left: 210px;
+  bottom: 2075px;
+  left: 240px;
   color: cyan;
 }
 
 .avatar6 {
   position: relative;
-  bottom: 2095px;
-  left: 240px;
+  bottom: 2090px;
+  left: 270px;
   color: cyan;
 }
 
 .avatar7 {
   position: relative;
-  bottom: 2050px;
-  left: 180px;
+  bottom: 2045px;
+  left: 210px;
   color: cyan;
 }
 
 .avatar8 {
   position: relative;
-  bottom: 2065px;
-  left: 210px;
+  bottom: 2060px;
+  left: 240px;
   color: cyan;
 }
 
 .avatar9 {
   position: relative;
-  bottom: 2080px;
-  left: 240px;
+  bottom: 2075px;
+  left: 270px;
   color: cyan;
+}
+
+.skill .text222 h1 {
+  position: relative;
+  bottom: 1960px;
+  left: 750px;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.skill .text222 h2 {
+  position: relative;
+  bottom: 1920px;
+  left: 750px;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.skill .text222 h3 {
+  position: relative;
+  bottom: 1880px;
+  left: 750px;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.skill .text222 h4 {
+  position: relative;
+  bottom: 1840px;
+  left: 750px;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.skill .text222 h5 {
+  position: relative;
+  bottom: 1800px;
+  left: 750px;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.skill .text222 h6 {
+  position: relative;
+  bottom: 1760px;
+  left: 750px;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.skill .text2222 h1 {
+  position: relative;
+  bottom: 1650px;
+  left: 750px;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.skill .text2222 h2 {
+  position: relative;
+  bottom: 1610px;
+  left: 750px;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.skill .text2222 h3 {
+  position: relative;
+  bottom: 1570px;
+  left: 750px;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
 }
 
 .talk h1 {
