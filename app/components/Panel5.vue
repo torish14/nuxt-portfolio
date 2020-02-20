@@ -77,7 +77,7 @@
             :key="i"
           >
             <v-expansion-panel-header>
-              Coating
+              Coaching
               <template v-slot:actions>
                 <v-icon color="teal">
                   mdi-check
