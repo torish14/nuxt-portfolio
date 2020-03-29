@@ -1,4 +1,4 @@
-import webpack from 'webpack'
+// import webpack from 'webpack'
 
 export default {
   mode: 'universal',
@@ -47,8 +47,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-    'nuxt-brotli'
+    '@nuxtjs/pwa'
   ],
   /*
   ** Axios module configuration
@@ -80,6 +79,21 @@ export default {
   ** Build configuration
   */
   build: {
+    babel: {
+      presets ({ isServer }) {
+        return [
+          [
+            require.resolve('@nuxt/babel-preset-app'),
+            // require.resolve('@nuxt/babel-preset-app-edge),
+            // For nuxt-edge users
+            {
+              buildTarget: isServer ? 'server' : 'client',
+              corejs: { version: 3 }
+            }
+          ]
+        ]
+      }
+    },
     /*
     ** You can extend webpack config here
     */
@@ -94,7 +108,7 @@ export default {
     },
     vendeer: ['moment'],
     plugins: [
-      new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /ja/)
+      // new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /ja/)
     ]
   }
 }
