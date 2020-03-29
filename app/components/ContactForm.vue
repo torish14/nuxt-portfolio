@@ -50,7 +50,6 @@
 
 <script>
 import { functions } from '~/plugins/firebase'
-
 export default {
   data: () => ({
     contactForm: {
@@ -76,7 +75,6 @@ export default {
       if (this.$refs.form.validate()) {
         this.contactForm.loading = true
         const mailer = functions.httpsCallable('sendMailNew')
-
         mailer(this.contactForm)
           .then(() => {
             this.formReset()
@@ -111,5 +109,4 @@ export default {
 </script>
 
 <style>
-
 </style>
