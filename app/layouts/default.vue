@@ -85,12 +85,12 @@ export default {
           icon: 'mdi-human',
           title: 'Welcome',
           to: '/'
-        },
-        {
-          icon: 'mdi-alien-outline',
-          title: 'About me',
-          to: '/about'
         }
+        // {
+        //   icon: 'mdi-alien-outline',
+        //   title: 'About me',
+        //   to: '/about'
+        // }
       ],
       miniVariant: false,
       right: true,
