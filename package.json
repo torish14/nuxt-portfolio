@@ -2,7 +2,7 @@
   "name": "nuxt-portfolio",
   "version": "1.0.0",
   "description": "My exceptional Nuxt.js project",
-  "author": "toshihirokato",
+  "author": "torish14",
   "private": true,
   "scripts": {
     "dev": "nuxt",
