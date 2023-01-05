@@ -26,7 +26,7 @@
     "hard-source-webpack-plugin": "^0.13.1",
     "node-fetch": "^2.6.0",
     "npm-check-updates": "^4.0.3",
-    "nuxt": "^2.12.0",
+    "nuxt": "^2.15.8",
     "vue-chartjs": "^3.5.0",
     "yarn": "^1.22.4"
   },
